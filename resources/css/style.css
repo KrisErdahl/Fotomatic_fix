@@ -14,10 +14,39 @@ html {
   text-align: center;
 }
 
+.cursive {
+  font-family: damion;
+}
+
+.striking {
+  font-family: rubik;
+  font-size: 3.125rem;
+  line-height: 1.4;
+  margin-bottom: .75rem;
+}
+
+.email span {
+  font-family: roboto;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+.email span strong {
+  font-weight: bold;
+}
+
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
+  width: 25.5rem;
   color: white;
+  margin-top: 1.625rem;
+  margin-bottom: 2rem;
+  font-family: roboto;
+  font-weight: medium;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .image-container {
@@ -135,7 +164,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  margin-left: 6.25rem;
+  margin: 10.625rem 0rem 10.625rem 6.25rem;
 }
 
 #sign-up-cta .content {
