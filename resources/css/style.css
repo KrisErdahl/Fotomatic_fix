@@ -3,6 +3,7 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  background-color: lightgrey;
 }
 
 .main-content {
@@ -182,3 +183,76 @@ header .mobile {
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+}
+ /* Features Section */
+
+
+#features-section {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.feature {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.feature .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  height: 39.6875rem;
+  width: 80%;
+}
+
+.feature .center1 {
+  margin-right: 2.375rem;
+}
+
+.image-container1 {
+  width: 90%;
+  height: 65%;
+  margin: 2rem 2rem 2.5rem 2rem;
+  background-image: url("../../resources/images/feature-1.png");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.image-container2 {
+  width: 90%;
+  height: 65%;
+  margin: 2rem 2rem 2.5rem 2rem;
+  background-image: url("../../resources/images/feature-2.png");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-container1 h2 {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #4A4A4A;
+  line-height: 1.2;
+}
+
+.image-container1 
+
+.image-container2 h2 {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #4A4A4A;
+  line-height: 1.2;
+}
