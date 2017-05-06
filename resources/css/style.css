@@ -187,7 +187,7 @@ header .mobile {
  /* Features Section */
 
 #features-section {
-  width: 100%;
+  /*width: 100%;*/
   margin-top: 4rem;
   display: flex;
   flex-direction: row;
@@ -256,4 +256,84 @@ header .mobile {
   color: #4A4A4A;
   line-height: 1.2;
   margin: 1rem 3rem 0rem 3rem;
+}
+
+/* Filters Section */
+
+#filters-section {
+  background-color: #4a4a4a;
+  margin-top: 2.875rem;
+  max-width: 100%;
+}
+
+.lower h2 {
+  color: white;
+  opacity: 100%;
+  font-size: 2.25rem;
+  font-family: roboto;
+  font-weight: bold;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.lower h3 {
+  color: white;
+  font-size: 1rem;
+  font-family: roboto;
+  font-weight: 300rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.images-container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1%;
+  padding-right: 1%;
+  /*padding-bottom: 4rem;*/
+}
+
+.image-container3 {
+  max-width: 25%;
+  max-height: 25%;
+  padding-bottom: 4rem;
+  display: block;
+}
+
+/* Quotes Section */
+
+.quote {
+  font-family: Palatino;
+  line-height: 1.1;
+  font-size: 1.875rem;
+  color: #4a4a4a;
+  display: inline-block;
+  padding: 5rem 1.875rem 5rem 0rem;
+}
+
+em {
+  font-style: italic;
+}
+
+.quote-citation {
+  display: inline-block;
+}
+
+/* Footer section */
+footer .content {
+  background-color: #9b9b9b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3.875rem;
+  justify-content: space-between;
+}
+
+footer .content span {
+  color: white;
+  font-size: .75rem;
+  font-family: roboto;
+  margin: 0rem 2rem;
 }
